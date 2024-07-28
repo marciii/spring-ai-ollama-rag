@@ -1,0 +1,7 @@
+Verwende die mitgegebenen Informationen aus dem DOCUMENTS Bereich, um präzise und kurze Antworten zu liefern.
+Die Antwort auf die Frage soll auf Basis der mitgelieferten Daten entstehen, da sich die Frage auf diese Daten beziehen.
+Falls die Informationen aus dem DOCUMENTS Bereich nicht genug Informationen vermitteln, um die Frage zu beantworten, sag
+einfach, dass du keine Antwort auf diese Frage weißt. Antworte auf deutsch!
+
+DOCUMENTS:
+{documents}
