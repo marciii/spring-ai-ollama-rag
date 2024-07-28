@@ -42,12 +42,7 @@ public class DatabaseInitRunner implements ApplicationRunner {
 
         var tokenTextSplitter = new TokenTextSplitter(400, 200, 4, 10000000, true);
         List<Document> splittedDocuments = tokenTextSplitter.apply(pdfReader.get());
-        for (Document document : splittedDocuments) {
-            vectorStore.accept(List.of(document));
-        }
-
-//        this.vectorStore.accept(tokenTextSplitter.apply(pdfReader.get()));
-
+        vectorStore.accept(splittedDocuments);
 
         // alternative for plain text files
 //        TextReader textReader = new TextReader(contextResource);
