@@ -9,6 +9,5 @@ This project is a starting point for importing large context files and use them 
 3. Download an embedding model, for instance ```ollama pull nomic-embed-text```
 3. Start the pgVector container. ```docker compose up``` in the root directory
 4. Start the application
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 Orientated at the repo of [benayat](https://github.com/benayat/rag-with-spring-ai/tree/master)
